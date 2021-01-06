@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "GCB NA node"
+    },
+    {
+      "id": 1,
+      "name": "Cash flows"
+    },
+    {
+      "id": 5,
+      "name": "HQLA"
+    },
+    {
+      "id": 6,
+      "name": "Enterprise Cash Flows"
+    },
+    {
+      "id": 7,
+      "name": "Enterprise HQLA"
+    },
+    {
+      "id": 8,
+      "name": "Enterprise LCRs"
+    },
+    {
+      "id": 9,
+      "name": "Reg. Reports"
+    },
+    {
+      "name": "Loans",
+      "id": 11
+    },
+    {
+      "name": "Deposits",
+      "id": 12
+    },
+    {
+      "name": "Long Term Debt",
+      "id": 13
+    },
+    {
+      "name": "Secured Funding Transactions",
+      "id": 14
+    },
+    {
+      "name": "Short Term Borrowings",
+      "id": 15
+    },
+    {
+      "name": "Available Cash",
+      "id": 16
+    },
+    {
+      "name": "U.S. Sovereign ",
+      "id": 17
+    },
+    {
+      "name": "U.S Agency/Agency MBS",
+      "id": 18
+    },
+    {
+      "name": "Foreign Govt. Debt",
+      "id": 19
+    },
+    {
+      "name": "Other Invest. Grade Debt",
+      "id": 20
+    }
+  ],
+  "links": [
+    {
+      "id": 0,
+      "value": 1,
+      "source": 0,
+      "target": 1
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 1,
+      "target": 11
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 1,
+      "target": 12
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 1,
+      "target": 13
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 1,
+      "target": 14
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 1,
+      "target": 15
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 5,
+      "target": 16
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 5,
+      "target": 17
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 5,
+      "target": 18
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 5,
+      "target": 19
+    },
+    {
+      "id": 1,
+      "value": 1,
+      "source": 5,
+      "target": 20
+    },
+    {
+      "id": 5,
+      "value": 2,
+      "source": 0,
+      "target": 5
+    },
+    {
+      "id": 6,
+      "value": 2,
+      "source": 0,
+      "target": 6
+    },
+    {
+      "id": 7,
+      "value": 2,
+      "source": 0,
+      "target": 7
+    },
+    {
+      "id": 8,
+      "value": 2,
+      "source": 0,
+      "target": 8
+    },
+    {
+      "id": 9,
+      "value": 2,
+      "source": 8,
+      "target": 9
+    },
+    {
+      "id": 10,
+      "value": 2,
+      "source": 6,
+      "target": 8
+    },
+    {
+      "id": 11,
+      "value": 2,
+      "source": 7,
+      "target": 8
+    }
+  ]
+}
